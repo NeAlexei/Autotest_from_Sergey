@@ -17,13 +17,13 @@ import static com.kinomo.streaming.test.config.Settings.DOWNLOAD_DATA_URL;
 import static com.kinomo.streaming.test.config.Settings.KM_AUTH;
 import static com.kinomo.streaming.test.config.Settings.SESSION_TOKEN;
 
-public class Download {
+public class DownloadByRanges {
 
-    private static final Logger logger = LoggerFactory.getLogger(Download.class);
+    private static final Logger logger = LoggerFactory.getLogger(DownloadByRanges.class);
 
     HttpClient httpClient;
 
-    public Download(HttpClient httpClient) {
+    public DownloadByRanges(HttpClient httpClient) {
         this.httpClient = httpClient;
     }
 
